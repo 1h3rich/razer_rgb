@@ -1,5 +1,8 @@
 # razer_rgb
 
+> ⚠️ **Solo Linux.** Hecho y probado en CachyOS (Arch Linux) + KDE Plasma 6. No
+> se sabe si funciona en otras distros de Linux — no funciona en Windows ni macOS.
+
 App PyQt6 para controlar el RGB de dispositivos Razer en Linux vía [OpenRazer](https://openrazer.github.io/),
 con indicador de Caps Lock integrado en la propia animación del teclado.
 
