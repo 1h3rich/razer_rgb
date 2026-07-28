@@ -1,0 +1,16 @@
+[Unit]
+Description=Sync keyd capslock layer to Razer keyboard LED
+After=keyd.service openrazer-daemon.service
+Requires=keyd.service
+Wants=openrazer-daemon.service
+
+[Service]
+Type=simple
+User=rich
+ExecStart=/usr/bin/python3 /usr/local/lib/razer-capslock-led.py
+Restart=always
+RestartSec=3
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Razer RGB Control
+Comment=Control RGB de teclados y ratón Razer
+Exec=python3 /home/rich/Proyectos/razer_rgb/razer_rgb.py
+Icon=/home/rich/Proyectos/razer_rgb/icon.png
+Terminal=false
+StartupWMClass=razer-rgb
+Categories=Settings;HardwareSettings;
+Keywords=razer;rgb;keyboard;teclado;led;color;
+StartupNotify=true
